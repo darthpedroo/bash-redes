@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "aa"
 for file in ~/BASURA/*; do 
     if [ -f "$file" ]; then 
         file_timestamp=$(stat --format=%Z "$file") #Devuelve la fecha de modidicacion
